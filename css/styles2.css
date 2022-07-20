@@ -1,0 +1,32 @@
+/* #exampleoftransition {
+    width: 500px;
+    height: 500px;
+    background-color: royalblue;
+    transition-property: background-color, border-radius;
+    transition-duration: 3s;
+    transition-delay: 3s;
+    margin-bottom: 14px;
+}
+
+#exampleoftransition:hover {
+    background-color: green;
+    border-radius: 50%;
+} */
+
+#button {
+    color: red;
+    width: 50vh;
+    height: 50vh;
+    padding: 90px;
+    text-align: center;
+    background-color: royalblue;
+    transition-property: background-color, color, border-radius;
+    transition-duration: 3s;
+    transition-delay: 3s;
+}
+
+#button:hover {
+    color: green;
+    background-color: white;
+    border-radius: 50%;
+}
